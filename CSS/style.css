@@ -10,7 +10,7 @@ body, header, nav, section, article, aside, footer {
 }
 
 header {
-	background-color: #ce0707;
+	background-color: #E2001a;
 	color: white;
 	text-align: center;
 	padding: 1em;
@@ -36,7 +36,7 @@ a {
 
 /* Hover and selected pseudo-classes */
 a:hover {
-	border-color: yellow;
+	border-color: #E2001a;
 }
 
 a:active, a:focus {
