@@ -83,6 +83,11 @@ input[type="submit"]:hover {
 	background-color: #c00016;
 }
 
+img #Domtoren {
+    max-height: 250px;
+    max-width: 200px;
+}
+
 /* Responsive afbeelding */
 img {
 	max-width: 100%;
@@ -106,9 +111,4 @@ footer {
 	text-align: center;
 	padding: 1em;
 	margin-top: 2em;
-}
-
-img#Domtoren {
-    max-height: 250px;
-    max-width: 200px;
 }
