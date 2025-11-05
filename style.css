@@ -1,5 +1,4 @@
-/* Basic responsive design and typography */
-/* This CSS validates at https://jigsaw.w3.org/css-validator */
+/* deze CSS is goedgekeurd door:  https://jigsaw.w3.org/css-validator */
 
 body, header, nav, section, article, aside, footer {
 	font-family: Arial, sans-serif;
@@ -11,7 +10,7 @@ body, header, nav, section, article, aside, footer {
 }
 
 header {
-	background-color: #333;
+	background-color: #ce0707;
 	color: white;
 	text-align: center;
 	padding: 1em;
