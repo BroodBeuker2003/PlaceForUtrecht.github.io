@@ -3,14 +3,14 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="author" content="Dylan van der Veen">
-	<title>Place for Utrecht</title>
+	<title>Contact - Werkplekken in Utrecht</title>
 	<link rel="stylesheet" href="css/style.css">
 	<link rel="icon" type="image/png" href="img/favicon-16x16.png">
 </head>
 <body>
 	<header>
 		<img id="logo" src="img/WapenUtrecht.jpeg" alt="Logo Utrecht">
-		<h1>Place for Utrecht</h1>
+		<h1>Werkplekken in Utrecht</h1>
 		<nav>
 			<ul>
 				<li><a href="index.html">Home</a></li>
@@ -20,23 +20,23 @@
 		</nav>
 	</header>
 
-	<section id="home">
+	<section id="contact">
 		<article>
-			<h2>Welkom!</h2>
-			<p><em>Utrecht</em> bruist van energie en ondernemerschap. Ontdek inspirerende werkplekken voor freelancers, startups en studenten.</p>
-			<img id="domtoren" src="img/Domtoren.jpeg" alt="Domtoren Utrecht">
-			<p>De iconische Domtoren is hét symbool van Utrecht en met zijn 112,32 meter de hoogste kerktoren van Nederland.</p>
-		</article>
+			<h2>Contactformulier</h2>
+			<p>Heb je vragen of wil je een werkplek toevoegen? Stuur ons een bericht via het formulier hieronder:</p>
+			<form action="#" method="post">
+				<label for="naam">Naam:</label>
+				<input type="text" id="naam" name="naam" required>
 
-		<aside>
-			<h3>Populaire buurten</h3>
-			<ul>
-				<li>Stationsgebied</li>
-				<li>Lombok</li>
-				<li>Leidsche Rijn</li>
-				<li>Oost</li>
-			</ul>
-		</aside>
+				<label for="email">E-mail:</label>
+				<input type="email" id="email" name="email" required>
+
+				<label for="bericht">Bericht:</label>
+				<textarea id="bericht" name="bericht" rows="5" required></textarea>
+
+				<input type="submit" value="Verstuur">
+			</form>
+		</article>
 	</section>
 
 	<footer>
