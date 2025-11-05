@@ -81,15 +81,7 @@ input[type="submit"] {
 
 input[type="submit"]:hover {
 	background-color: #c00016;
-}
 
-/* Responsive afbeelding */
-img {
-	max-width: 100%;
-	height: auto;
-	border-style: double;
-	border-width: 4px;
-	border-color: #E3001B;
 }
 
 /* Specifiek voor de Domtoren-afbeelding */
@@ -102,6 +94,14 @@ img#domtoren {
     margin: 0 auto;
 }
 
+/* Responsive afbeelding */
+img {
+	max-width: 100%;
+	height: auto;
+	border-style: double;
+	border-width: 4px;
+	border-color: #E3001B;
+}
 
 /* Responsief gedrag */
 @media (max-width: 600px) {
