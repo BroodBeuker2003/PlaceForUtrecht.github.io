@@ -108,7 +108,7 @@ footer {
 	margin-top: 2em;
 }
 
-#domtoren{
-	max-width: 200px;
-	height: 200px;
+img#Domtoren {
+    max-height: 250px;
+    max-width: 200px;
 }
