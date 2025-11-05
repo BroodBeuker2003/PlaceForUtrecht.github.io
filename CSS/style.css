@@ -94,12 +94,12 @@ img {
 
 /* Specifiek voor de Domtoren-afbeelding */
 img#Domtoren {
-	max-height: 250px;
-	max-width: 200px;
-	width: 100%;
-	height: auto;
-	display: block;
-	margin: 0 auto;
+    max-height: 250px;
+    max-width: 200px;
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
 }
 
 
